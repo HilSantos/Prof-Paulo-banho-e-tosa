@@ -1,14 +1,16 @@
-# Aulas-Prof-Paulo-Senacsp05
+# Profº Paulo Banho e Tosa
 
 <!doctype html>
 <html lang="pt-br">
 <head>
 <meta charset="utf-8">
 <title>Meu amigo cão</title>
+<script src="interacao/html5shiv.min.js"></script>    
 </head>
 
-<body>
+<body id="banhoEtosa">
 <a href="index.html">Home</a>
+<main>    
 <h1> Agendamento para banho e tosa </h1>
 <h2> Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
 
@@ -76,6 +78,10 @@
 <input type="submit" value="Enviar">
 
 </form>
-
+</main>
+<footer>
+    <p>Atendimento: <a href="mailto:atendimento@meuamigocao.com.br">atendimento@meuamigocao.com.br</a>
+        - (0XX) 9999-9999 / (0XX) 8888-8888</p>
+</footer>
 </body>
 </html>
