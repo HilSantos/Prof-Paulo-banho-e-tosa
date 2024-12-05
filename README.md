@@ -61,9 +61,12 @@
     <label for="nome_animal">Nome:</label> <input type="text" name="nome_animal" id="nome_animal"  size = "25"  placeholder="Digite o nome do animal" maxlength="40"/></p>
     <p>
         Porte do cão:
-        <input type="radio" name="porte_animal" id="animal_pequeno" value="0">Pequeno
-        <input type="radio" name="porte_animal" id="animal_medio" value="1">Medio
-        <input type="radio" name="porte_animal" id="animal_grande" value="2" checked>Grande
+        <input type="radio" name="porte_animal" id="animal_pequeno" value="0">
+        <label for="animal_pequeno" class="labelSimples">Pequeno</label>
+        <input type="radio" name="porte_animal" id="animal_medio" value="1">
+        <label for="animal_medio" class="labelSimples">Medio</label>
+        <input type="radio" name="porte_animal" id="animal_grande" value="2" checked>
+        <label for="animal_grande" class="labelSimples">Grande</label>
     </p>
     <p>
         Tipo de Tosa:
@@ -80,18 +83,23 @@
         Observações:
         <textarea name="q_obs" id="q_obs" placeholder="Digita alguma informação sobre o animal">
 
-        </textarea>
+</textarea>
     </p>
     </fieldset>
     <fieldset id="ident_marcacao">
         <legend>Horario - Não atendemos aos Domingos, Feriados e Segundas-Feiras</legend>
         <p>
             Indique os dias da semana de sua preferencia:<br>
-            <input type="checkbox" name="dia_semana" id="terça-feira" value="0">Terça-feira
-            <input type="checkbox" name="dia_semana" id="quarta-feira" value="1">Quarta-feira
-            <input type="checkbox" name="dia_semana" id="quinta-feira" value="2">Quinta-feira
-            <input type="checkbox" name="dia_semana" id="sexta-feira" value="3">Sexta-feira
-            <input type="checkbox" name="dia_semana" id="sabado" value="4">Sabado
+            <input type="checkbox" name="dia_semana" id="terça-feira" value="0">
+            <label for="terça-feira" class="labelSimples">Terça-feira</label> 
+            <input type="checkbox" name="dia_semana" id="quarta-feira" value="1">
+            <label for="quarta-feira" class="labelSimples">Quarta-feira</label> 
+            <input type="checkbox" name="dia_semana" id="quinta-feira" value="2">
+            <label for="quinta-feira" class="labelSimples">Quinta-feira</label>
+            <input type="checkbox" name="dia_semana" id="sexta-feira" value="3">
+            <label for="sexta-feira" class="labelSimples">Sexta-feira</label>
+            <input type="checkbox" name="dia_semana" id="sabado" value="4">
+            <label for="sabado" class="labelSimples">Sabado</label>
         </p>
         <p>
             Primeira opção de Horario
